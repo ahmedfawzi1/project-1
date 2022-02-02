@@ -1,0 +1,172 @@
+/* body */
+body {
+    background-color: lightblue;
+}
+
+/* header */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.1);
+    position: relative;
+    border-radius: 80px;
+}
+
+.header-logo {
+    height: 35px;
+    width: auto;
+}
+
+.navbar-nav .active {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 25px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.header-btn {
+    padding: 5px 50px;
+    border-radius: 100px;
+    margin-top: 0px;
+}
+
+/* section 01 */
+.section-title hr {
+    width: 15%;
+    background-color: rgb(189, 189, 21);
+    height: 1px;
+
+}
+
+.section1 h2 {
+    font-family: initial;
+    font-weight: bold;
+    margin: 0px auto;
+
+}
+
+
+/* section 02 */
+.section2 h2 {
+    font-family: initial;
+    font-weight: bold;
+}
+
+.section2 h4 {
+    font-family: initial;
+    font-weight: bold;
+}
+
+.section2 p {
+    font-family: serif;
+}
+
+.section-title hr {
+    width: 15%;
+    background-color: rgb(189, 189, 21);
+    height: 1px;
+}
+ 
+.section2 .mycard{
+    background-color: white;
+    width: 289px;
+    margin-left: 60px;
+    border-radius: 4px;
+}
+.section2 .parent-card1 :hover{
+   
+    background: linear-gradient(180deg, rgba(93,93,93,1) 0%, rgba(17,17,187,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+}
+.section2 .parent-card2 :hover{
+    background: linear-gradient(to bottom, rgba(34,193,195,1) 0%, rgba(253,187,45,0.6589986336331408) 100%);
+    color: black;
+}
+.section2 .parent-card3 :hover{
+    background: linear-gradient(to bottom, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    color: white;
+}
+.section2 .parent-card4 :hover{
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(67,253,45,0.3816877092633929) 100%);
+    color: black;
+}
+.section2 .parent-card5 :hover{
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(191,45,253,0.7066176812521884) 100%);
+    color: white;
+}
+.section2 .parent-card6 :hover{
+    background: linear-gradient(0deg, rgba(195,136,34,1) 0%, rgba(221,253,45,0.9559174011401436) 100%);
+    color: white;
+}
+
+
+
+
+/* section 03 */
+.section3 h2 {
+    font-family: initial;
+    font-weight: bold;
+}
+
+.section3 div li {
+    list-style: lower-roman;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: inherit;
+    color: lightcoral;
+}
+
+/* section 04 */
+.section4 div .card-text {
+    text-align: center;
+    color: mediumseagreen;
+}
+
+
+/* section 05  */
+.section5 div .form-bg {
+    background-color: lightskyblue;
+    padding: 20px;
+}
+
+.section5 div .bg-contact {
+    background-color: lightskyblue;
+    padding-top: 20px;
+}
+
+/* btn */
+.top-button {
+    width: 45px;
+    height: 45px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+#top {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+/* footer */
+footer {
+    background-color: whitesmoke;
+    box-shadow: 0 0 20px rgb(214 215 216 / 50%);
+}
+
+.footer-links ul {
+    list-style: none;
+    text-align: left;
+}
+
+.box {
+    color: #444444;
+    text-align: center;
+    box-shadow: 0 0 20px rgb(214 215 216 / 50%);
+    padding: 20px 0 30px 0;
+}
+
+.form-box {
+    box-shadow: 0 0 20px rgb(214 215 216 / 50%);
+    padding: 30px;
+}
